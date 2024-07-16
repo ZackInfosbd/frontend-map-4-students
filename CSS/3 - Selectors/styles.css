@@ -38,6 +38,14 @@ p {
   color: yellow;
 }
 
+#title {
+  font-size: 50px;
+}
+
+.title-text {
+  text-transform: uppercase;
+}
+
 /* 
 - you can select the element by name to apply css rules on it.
 - you can group multiple elements to apply the same css rules on them.
