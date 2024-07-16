@@ -1,4 +1,4 @@
-/* Element Selectors */
+/* 1 - Element Selectors */
 h1 {
   color: blue;
 }
@@ -10,3 +10,36 @@ h2 {
 p {
   color: purple;
 }
+
+/* 2 - Group selectors */
+h1,
+h2,
+p {
+  color: blue;
+}
+
+/* 3 - Id Selectors */
+#title {
+  color: red;
+  background-color: yellow;
+}
+
+#subheading {
+  color: orange;
+  background-color: gray;
+}
+
+/* 4 - Class Selectors */
+.blue {
+  color: blue;
+}
+
+.yellow {
+  color: yellow;
+}
+
+/* 
+- you can select the element by name to apply css rules on it.
+- you can group multiple elements to apply the same css rules on them.
+- you need to notice that last css rule is applied
+*/
