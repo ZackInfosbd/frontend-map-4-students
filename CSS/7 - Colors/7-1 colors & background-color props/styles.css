@@ -1,0 +1,14 @@
+/* COLOR Properties */
+/* Color Background-color background */
+
+#first {
+  color: white;
+  /* this is specified just for background color */
+  background-color: black;
+}
+
+#second {
+  color: red;
+  /* this is for background color or background image */
+  background: yellow;
+}

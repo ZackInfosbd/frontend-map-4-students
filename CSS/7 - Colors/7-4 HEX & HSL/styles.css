@@ -1,0 +1,24 @@
+/* 
+HSL 
+HEX Values #RRGGBB
+123456789 A(10) B(11) C(12) D(13) E(14) F(15)
+             10   11    12    13    14    15
+             #FF0000 - Red
+             #00FF00 - Green
+
+*/
+
+#first {
+  color: #ff0000;
+  background-color: #000;
+}
+
+#second {
+  color: #00ff00;
+  background-color: #ffffff;
+}
+
+#third {
+  color: #0000ff;
+  background-color: #c89664;
+}

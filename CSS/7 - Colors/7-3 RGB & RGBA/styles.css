@@ -1,0 +1,43 @@
+/* RGB RED GREEN BLUE 0-255*/
+/* RGBA A-opacity/transparancy 0-1 */
+
+/* #first {
+  color: rgb(255, 0, 0);
+  background-color: rgb(10, 150, 50);
+}
+
+#second {
+  color: rgb(0, 255, 0);
+  background-color: rgb(255, 255, 255);
+}
+
+#third {
+  color: rgb(0, 0, 255);
+  background-color: rgb(200, 150, 100);
+}
+
+body {
+  background-color: rgb(120, 34, 210);
+} */
+
+#first {
+  color: rgba(255, 0, 0, 0.5);
+  background-color: rgba(10, 150, 50, 0.1);
+}
+
+#second {
+  color: rgba(0, 255, 0);
+  background-color: rgba(255, 255, 255);
+}
+
+#third {
+  color: rgba(0, 0, 255, 0.1);
+  background-color: rgba(200, 150, 100, 0.3);
+}
+
+body {
+  background-color: rgba(120, 34, 210, 0.2);
+}
+
+/* 
+- if the A- Alpha one = 1, it is like you do write the color without opacity */
