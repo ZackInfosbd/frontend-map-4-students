@@ -1,0 +1,29 @@
+/* 
+INHERITANCE
+1 - Inheritance is a mechanism that allows a style to be applied to an element based on the style of its parent element unless they have they own styles but keep in mind only if the property matches.
+*/
+body {
+  /* property matches */
+  color: red;
+  font-family: monospace;
+  line-height: 1.5;
+  font-size: 20px;
+  border: 1px solid black;
+}
+
+.special {
+  /* property matches */
+  color: green;
+  /* property matches */
+  font-size: 30px;
+}
+
+h2 {
+  /* property matches */
+  color: blue;
+}
+
+div {
+  /* property matches */
+  color: greenyellow;
+}
