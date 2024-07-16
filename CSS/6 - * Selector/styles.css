@@ -1,0 +1,30 @@
+/* Last Rule and Specifity * Universal Selector 
+- like the * universal rule has low specifity, while ID selectors have high specifity
+*/
+
+* {
+  /* mostly used to initialise the default browser rules */
+  color: yellow;
+}
+
+.special {
+  color: red;
+}
+
+p {
+  color: red;
+}
+
+/* More rules here ....... */
+
+p {
+  color: green;
+}
+
+#heading {
+  color: purple;
+}
+
+.heading {
+  color: blue;
+}
