@@ -1,0 +1,21 @@
+/* 
+% - percent. RELATIVE UNIT/VALUE and do the depend on the parent.
+
+*/
+
+.outer {
+  width: 400px;
+  height: 400px;
+  background-color: blue;
+}
+
+.inner {
+  width: 50%;
+  height: 50%;
+  background-color: red;
+}
+
+/* 
+- relative units:
+with & percent unit it is relted to the paren to define the dimenssion.
+*/

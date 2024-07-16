@@ -1,0 +1,25 @@
+/* 
+rem -RELATIVE, depemnds on the root element (html) 
+1rem = base value (16px) * number (1) = 16px
+*/
+
+html {
+  font-size: 100px;
+}
+
+*/ div {
+  font-size: 10px;
+}
+
+.absolute {
+  font-size: 32px;
+}
+
+.relative {
+  font-size: 2rem;
+}
+
+/* 
+- relative units:
+with rem it is relted to the root parent,ehich is html element to define the dimenssion.
+*/

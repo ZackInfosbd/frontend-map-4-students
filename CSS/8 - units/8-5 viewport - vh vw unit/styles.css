@@ -1,0 +1,26 @@
+/* 
+VIEWPORT UNITS
+vh - heigh - percent height of the screen
+vw - heigh - percent width of the screen
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+  background-color: red;
+}
+.about {
+  background: blue;
+  height: 50vh;
+  width: 50vw;
+}
+
+/* 
+- relative units:
+vh and vw are relative to the screen and allows to construct layouts without extra aches
+*/
