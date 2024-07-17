@@ -1,0 +1,13 @@
+/*
+font-stack Generic-Family
+serif, sans-serif, cursive, fantasy, monospace
+*/
+
+body {
+  font-family: 'Sagoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-family: Verdana;
+  font-size: 50px;
+}
