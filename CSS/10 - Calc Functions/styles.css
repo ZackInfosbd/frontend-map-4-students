@@ -1,0 +1,36 @@
+/*
+CALC() FUNCTIONS
+Perform Math Operations + - * /
+MIX and MATCH VALUES
+*/
+* {
+  margin: 0;
+  /* padding: 0;
+  box-sizing: border-box; */
+}
+
+.navbar {
+  background-color: #333;
+  height: 100px;
+  color: white;
+  font-size: 3rem;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  height: 100%;
+  align-items: center;
+}
+
+.banner {
+  background-color: #f4f4f4;
+  height: calc(100vh - 100px);
+}
+
+/* 
+- we can make operations on mixed unit values
+- need to put the sapce between the operator and the values
+
+*/
