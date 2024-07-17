@@ -1,0 +1,35 @@
+/*
+BOX MODEL: OUTLINE, Outline-Width, Outline-Style, Outline-Color, Outline-Offset
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.links {
+  margin: 3rem;
+}
+
+a {
+  background: #f4f4f4;
+  text-decoration: none;
+  padding: 1.2rem 1.5rem;
+  color: black;
+  text-transform: uppercase;
+  margin: 0 20px;
+}
+
+#one {
+  border: 0.1rem solid #222;
+}
+
+#two {
+  outline-width: 0.1rem;
+  outline-style: solid;
+  outline-color: red;
+  /* outline-offset: 1rem; */
+  outline-offset: -1rem;
+  /* outline: 0.1rem solid red; */
+}

@@ -1,3 +1,42 @@
 /*
-
+ BOX MODEL: BORDER, Border-Width, Border-Style, Border-Color, Border-Radius,NEGATIVE MARGIN
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  background-color: yellow;
+  padding: 20px;
+  margin: 3rem;
+  border-style: solid;
+  border-width: 3px;
+  border-color: red;
+  border-bottom-width: 10px;
+}
+
+p {
+  background-color: blue;
+  padding: 20px;
+  margin: 4rem;
+  border-bottom: 5px dashed yellow;
+}
+
+.second {
+  background-color: yellow;
+  padding: 20px;
+  margin: 3rem;
+  border: 3px solid red;
+  border-radius: 10px;
+  margin-top: -90px;
+}
+.third {
+  background-color: purple;
+  padding: 20px;
+  margin: 3rem;
+  border: 3px solid black;
+  border-right-radius: 10px;
+}
