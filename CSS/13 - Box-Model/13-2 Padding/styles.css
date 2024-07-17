@@ -1,4 +1,23 @@
 /*
-
-
+Box Model: Padding
 */
+
+h1,
+p {
+  color: white;
+}
+
+h1 {
+  background-color: #f01dfd;
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+p {
+  background: blue;
+  padding: 20px;
+  padding: 20px 60px; //top/bottom left/right
+  padding: 5px 200px 50px; //top left/right bottom
+}
