@@ -1,6 +1,9 @@
 /*
-GOOGLE FONTS
+text-align property is used to set the horizontal alignment of a text. It can be set to left, right, center, or justify.
+text-indent property is used to specify the indentation of the first line of a text. It can be set to a length value or a percentage value.
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Trade+Winds&display=swap');
 
 body {
   font-family: Helvetica;
