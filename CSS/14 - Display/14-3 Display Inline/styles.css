@@ -1,13 +1,17 @@
 /* 
-INLINE: browser doews not respect width/height, top/bottom and margin
+INLINE-BLOCK: does not start a new line
+browser respects width, height and margin
 */
 
 body {
   text-align: center;
 }
 
-.inline {
-  background-color: red;
-  color: white;
-  display: block;
+a {
+  font-size: 1.5rem;
+  background-color: #f44336;
+  width: 40px;
+  height: 40px;
+  margin: 40px 10px;
+  display: inline-block;
 }
