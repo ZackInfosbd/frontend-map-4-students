@@ -6,10 +6,27 @@ text-indent property is used to specify the indentation of the first line of a t
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Trade+Winds&display=swap');
 
 body {
-  font-family: Helvetica;
+  font-family: Verdana, Helvetica;
+  text-align: right;
 }
 
-h1 {
-  font-family: Verdana;
-  font-size: 50px;
+.main-heading {
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-style: italic;
+  text-align: center;
+}
+
+.one {
+  font-weight: 100;
+}
+
+.second-heading {
+  font-family: 'Trade Winds';
+  font-weight: 400;
+}
+
+.two {
+  text-align: left;
+  text-indent: 50px;
 }
