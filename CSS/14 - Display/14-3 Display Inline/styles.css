@@ -1,0 +1,13 @@
+/* 
+INLINE: browser doews not respect width/height, top/bottom and margin
+*/
+
+body {
+  text-align: center;
+}
+
+.inline {
+  background-color: red;
+  color: white;
+  display: block;
+}

@@ -1,0 +1,24 @@
+/* 
+Navabar
+list-style-type: none;
+decendant selector
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul li {
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: purple;
+}

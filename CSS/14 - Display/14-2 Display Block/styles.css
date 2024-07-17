@@ -1,0 +1,15 @@
+/* 
+BLOCK : broswer respects width/height, top/bottom margin
+*/
+
+body {
+  text-align: center;
+}
+
+.block {
+  background-color: blue;
+  color: white;
+  width: 300px;
+  margin: 3px auto;
+  display: inline;
+}
