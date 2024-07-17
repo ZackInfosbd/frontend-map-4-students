@@ -9,7 +9,8 @@ height:auto; min-height;max-height;overflow
 
 .navbar {
   background-color: #333;
-  height: 100px;
+  /* height: 100px; */
+  height: 6rem;
   color: white;
   font-size: 3rem;
 }
@@ -20,18 +21,23 @@ height:auto; min-height;max-height;overflow
   list-style: none;
   height: 100%;
   align-items: center;
+  overflow: hidden;
+  overflow: scroll;
 }
 
 .banner {
   background-color: #f4f4f4;
-  height: calc(100vh - 100px);
+  /* height: calc(100vh - 100px); */
+  min-height: calc(100vh - 6rem);
+  max-height: 90vh;
 }
 
 .example {
-  height: 100px;
-  min-height: 200px;
-  max-height: 300px;
-  overflow: auto;
+  background: green;
+  width: 10rem;
+  height: 25rem;
+  overflow: hidden;
+  overflow: scroll;
 }
 
 /* 
