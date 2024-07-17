@@ -1,24 +1,33 @@
 /* 
-Navabar
-list-style-type: none;
-decendant selector
+Box:sizing: border-box;
+default value: content-box;
 */
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+} */
+
+.box-one,
+.box-two,
+.box-three {
+  width: 200px;
+  height: 200px;
+  color: white;
+  font-size: 1.5rem;
 }
 
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+.box-one {
+  background-color: #f44336;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-ul li {
-  margin-right: 10px;
-  list-style-type: none;
+.box-two {
+  background-color: blue;
 }
 
-ul li a {
-  text-decoration: none;
-  color: purple;
+.box-three {
+  background-color: green;
+  padding: 20px;
 }
