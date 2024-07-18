@@ -1,0 +1,28 @@
+/* 
+position:static: The default value for all elements. An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page.
+
+top, right, bottom, left: The top, right, bottom, and left properties are used to position the element.
+*/
+
+div {
+  border: 1px solid black;
+  background-color: #f1f1f1;
+  margin-top: 40px;
+}
+
+.one {
+  background-color: blue;
+  color: white;
+  position: static;
+}
+
+.two {
+  background-color: green;
+  color: white;
+}
+
+.special {
+  background-color: pink;
+  font-size: 20px;
+  color: black;
+}

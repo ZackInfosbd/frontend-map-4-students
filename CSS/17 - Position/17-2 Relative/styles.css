@@ -1,0 +1,29 @@
+/* 
+
+position relative: An element with position: relative; is positioned relative to its normal position.
+
+
+top, right, bottom, left: The top, right, bottom, and left properties are used to position the element.
+*/
+
+div {
+  border: 1px solid black;
+  background-color: #f1f1f1;
+  margin-top: 40px;
+}
+
+.one {
+  background-color: blue;
+  color: white;
+}
+
+.two {
+  background-color: green;
+  color: white;
+}
+
+.special {
+  background-color: pink;
+  font-size: 20px;
+  color: black;
+}
