@@ -21,14 +21,11 @@ div {
 }
 
 .big-img {
-  background-image: url('./big.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: url('./big.jpg') center/cover no-repeat;
 }
 .small-img {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
-    url('./images/folder.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
+    url('./images/folder.jpg') center/cover no-repeat;
   background-attachment: fixed;
 }
 .folder-img {
