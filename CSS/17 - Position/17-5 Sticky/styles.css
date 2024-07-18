@@ -1,10 +1,9 @@
 /* 
 
+position sticky: The element is positioned based on the user's scroll position. It is positioned relative to the nearest scrolling ancestor.
+means it toggles between relative and fixed, depending on the scroll position.
 
-position fixed: The element is positioned relative to the browser window (screen) 
-
-
-top, right, bottom, left: The top, right, bottom, and left properties are used to position the element.
+one of the values top, right, bottom, left: The top, right, bottom, and left properties are used to position the element.
 */
 
 div {
@@ -13,23 +12,36 @@ div {
   margin-top: 40px;
 }
 
+.nav {
+  position: sticky;
+  top: 0;
+  height: 40px;
+  width: 100%;
+  background-color: red;
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 0;
+}
+
 .one {
   background-color: blue;
   color: white;
-  position: absolute;
-  top: 0;
 }
 
 .two {
   background-color: green;
   color: white;
-  position: relative;
 }
 
 .special {
   background-color: pink;
   font-size: 20px;
   color: black;
-  position: absolute;
-  top: 0;
+}
+
+.test {
+  background-color: yellow;
+  color: black;
+  width: 100vw;
+  height: 100vh;
 }
