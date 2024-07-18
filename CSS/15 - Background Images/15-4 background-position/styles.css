@@ -1,0 +1,29 @@
+div {
+  height: 300px;
+  color: white;
+  border: 1px solid red;
+}
+
+.big-img {
+  background-image: url('./big.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.small-img {
+  background-image: url('./small.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position: left;
+  background-position: right;
+  background-position: bottom;
+  background-position: top;
+  background-position: 0 0;
+  background-position: top right;
+  background-position: 20% 50%;
+}
+.folder-img {
+  background-image: url('./images/folder.jpg');
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+}
