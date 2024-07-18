@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  height: 200px;
+  width: 50%;
+  float: left;
+  overflow: scroll;
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: green;
+}
+
+.three {
+  background-color: blue;
+}
+
+/* .four {
+  background-color: yellow;
+} */
+
+h1 {
+  clear: both;
+}
+
+/* 
+
+Float is not good choice for layout with the existing of better alternatives like flexbox and grid
+
+*/
