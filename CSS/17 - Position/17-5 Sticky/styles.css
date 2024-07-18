@@ -13,36 +13,23 @@ div {
   margin-top: 40px;
 }
 
-.nav {
-  position: fixed;
-  top: 0;
-  height: 40px;
-  width: 100%;
-  background-color: red;
-  font-size: 1.5rem;
-  color: white;
-  margin-top: 0;
-}
-
 .one {
   background-color: blue;
   color: white;
+  position: absolute;
+  top: 0;
 }
 
 .two {
   background-color: green;
   color: white;
+  position: relative;
 }
 
 .special {
   background-color: pink;
   font-size: 20px;
   color: black;
-}
-
-.test {
-  background-color: yellow;
-  color: black;
-  width: 100vw;
-  height: 100vh;
+  position: absolute;
+  top: 0;
 }
