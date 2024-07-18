@@ -1,0 +1,23 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.banner {
+  border: 1px solid #000;
+  margin: 10px;
+  padding: 10px;
+}
+.one {
+  float: left;
+}
+
+.two {
+  float: right;
+  height: 40px;
+}
+
+p {
+  clear: both;
+}
