@@ -14,13 +14,21 @@ div {
   align-items: center;
   font-size: 1rem;
   text-transform: uppercase;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .big-img {
   background-image: url('./big.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .small-img {
-  background-image: url('./images/folder.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
+    url('./images/folder.jpg');
   background-attachment: fixed;
 }
 .folder-img {
