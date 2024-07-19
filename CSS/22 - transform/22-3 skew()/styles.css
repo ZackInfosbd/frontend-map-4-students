@@ -1,5 +1,28 @@
 /* 
 
-Transform: 
+Transform: skew(
 
+- The `skew()` function is used in CSS to specify a transformation that skews an element along the horizontal and vertical axes. It allows you to distort the shape of an element without affecting the layout of other elements on the page.
+
+skew values:
+- skew(x-angle, y-angle): skews the element along the horizontal axis by the specified x-angle and along the vertical axis by the specified y-angle.
 */
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background-color: red;
+  transform: skewX(45deg);
+}
+.two {
+  background-color: green;
+  transform: skewY(45deg);
+}
+.three {
+  background-color: blue;
+  transform: skew(20deg, 10deg);
+}
