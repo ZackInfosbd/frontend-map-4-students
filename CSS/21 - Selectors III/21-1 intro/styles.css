@@ -1,3 +1,32 @@
 /* 
+Basic selectors:
+- id selector
+- class selector
+- group selector
+- universal selector
+- tag selector
+- attribute selector
+- combinators
+
 
 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: purple;
+}
+
+#heading {
+  color: red;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 4rem;
+}
+
+.heading {
+  color: blue;
+  text-transform: capitalize;
+  font-size: 3rem;
+}
