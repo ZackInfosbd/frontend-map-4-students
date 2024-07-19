@@ -1,3 +1,22 @@
 /* 
-
+Decendant and Child selectors:
+- It is used to select an element that is a descendant of another element.
+- It is used to select an element that is a child of another element.
+- It is used to select an element that is a grandchild of another element...etc
 */
+
+div h1 {
+  color: red;
+}
+
+div > h1 {
+  color: blue;
+}
+
+.header h1 {
+  color: green;
+}
+
+.header > h1 {
+  color: yellow;
+}
