@@ -1,27 +1,19 @@
 /* 
 
-:link - unvisited links with href attribute
-:visited - visited links with href attribute
-:hover:hover - when the user hovers over the element
-:active - when the user clicks on the element
-a - all links
+:root is a pseudo-class that matches the root element of a document (usually the html element). It is useful for setting global values that can be reused throughout the document.
 
+- General styles
+- CSS variables
 */
 
-a {
-  display: inline-block;
-  background-color: #f1f1f1;
-  margin: 10px;
+:root {
+  font-size: 16px;
 }
 
-a:link {
-  color: blue;
+.absolute {
+  font-size: 24px;
 }
 
-a:visited {
-  color: red;
-}
-
-a:active {
-  color: green;
+.relative {
+  font-size: 1.5rem;
 }
