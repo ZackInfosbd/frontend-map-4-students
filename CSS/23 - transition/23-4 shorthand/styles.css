@@ -1,0 +1,31 @@
+/* 
+
+Transition:  CSS3 property that allows you to change property values smoothly (over a given duration); means the change of the element over time
+
+- Transition property.
+- Transition duration.
+
+*/
+
+div {
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+div:hover {
+  background-color: coral;
+}
+
+.one {
+  background-color: red;
+}
+.two {
+  background-color: green;
+}
+.three {
+  background-color: blue;
+  transition: background-color 2s;
+  transition-duration: 2s;
+  transition: background-color 2s;
+}
