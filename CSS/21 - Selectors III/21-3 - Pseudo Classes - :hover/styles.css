@@ -1,3 +1,27 @@
 /* 
-
+pseudo class selector:
+:hover - is used to select the element when the user hovers over the element.
+:active - is used to select the element when the user clicks on the element.
+:pseudo class selectors,are varyingly from one element to an other - for example links has shared and own pseudo selectors - which will be shown in the next lecture to you guys!!!
 */
+
+div:hover {
+  color: yellow;
+}
+.header:hover {
+  color: yellow;
+  background-color: grey;
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: red;
+}
