@@ -1,3 +1,16 @@
 /* 
-
+::first-line, ::first-letter
 */
+
+p::first-line {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+p::first-letter {
+  text.transform: uppercase;
+  letter-spacing: 2px;
+  font-family: Helvetica;
+}
