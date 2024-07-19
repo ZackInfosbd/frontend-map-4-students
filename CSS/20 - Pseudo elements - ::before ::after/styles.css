@@ -1,0 +1,80 @@
+/* 
+::before ::after pseudo elements creates element and inserts before and after the content of the element.
+content:''; required -  is used to insert content in the element.
+img --- does not work - does not have content, so it is not possible to use ::before and ::after pseudo elements.
+*/
+
+/* =====> 1 <====== */
+
+/* p::before {
+  content: 'before content';
+  display: block;
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+}
+
+p:hover::after {
+  /* content: 'after content'; */
+/* content: '';
+  width: 100px;
+  height: 50px;
+  display: block;
+  background-color: yellow;
+  font-weight: bold;
+  font-size: 1rem;
+  color: red;
+  opacity: 0.5;
+  cursor: pointer; */
+/* }  */
+
+/* p::after {
+ 
+  content: '';
+  width: 100px;
+  height: 50px;
+  display: block;
+  background-color: yellow;
+  font-weight: bold;
+  font-size: 1rem;
+  color: red;
+  opacity: 0.5;
+} */
+
+/* ====> 2 <==== */
+div {
+  width: 70vw;
+  margin: 100px auto;
+  position: relative;
+  /* border: 1px solid black; */
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/* does not work, because img is a content itself! */
+/* img::before {
+  content: 'Hello there';
+} */
+
+div::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  z-index: -1;
+  border: 4px solid cyan;
+  width: 100%;
+  height: 100%;
+  display: block;
+  font-weight: bold;
+  font-size: 2rem;
+  color: red;
+  box-sizing: border-box;
+}
+
+/* 
+- if the content is empty, then width and hight are required to be set.
+*/
