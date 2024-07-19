@@ -1,0 +1,59 @@
+/* 
+
+Transition:  CSS3 property that allows you to change property values smoothly (over a given duration); means the change of the element over time
+
+- Transition property.
+- Transition duration.
+- Transition shorthand.
+- Transition all prop
+- Transition Timing Function: 
+
+
+
+timing function values:
+ease, ease-in, ease-out, ease-in-out, linear, cubic-bezier(n,n,n,n)
+
+ease - default
+ease - slow start, fast middle, slow end
+ease-in-out - slow start fast middle and slow end
+ease-in - slow start
+ease-out - slow end
+linear - constant speed
+cubic-bezier - custom values
+
+*/
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  font-size: 20px;
+  color: white;
+  margin: 5px;
+  text-align: center;
+  transition: all 2s;
+}
+
+div:hover {
+  transform: translateX(20px);
+}
+
+.ease {
+  transition-timing-function: ease;
+}
+
+.linear {
+  transition-timing-function: linear;
+}
+
+.ease-in {
+  transition-timing-function: ease-in;
+}
+
+.ease-out {
+  transition-timing-function: ease-out;
+}
+
+.ease-in-out {
+  transition-timing-function: ease-in-out;
+}
