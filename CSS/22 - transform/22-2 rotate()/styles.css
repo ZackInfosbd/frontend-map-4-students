@@ -1,5 +1,38 @@
 /* 
 
-Transform: 
+Transform: rotate()
+- The `rotate()` function is used in CSS to specify a transformation that rotates an element around a fixed point. It allows you to change the orientation of an element without affecting the layout of other elements on the page.
+rotate values:
+- rotate(angle): rotates the element by the specified angle in degrees.
 
+*/
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background-color: red;
+  transform: rotate(45deg);
+}
+
+.two {
+  background-color: green;
+  transform: rotate(-20deg);
+  transform: rotateZ(20deg);
+}
+
+.three {
+  background-color: blue;
+  transform: rotateX(80deg);
+  transform: rotateY(10deg);
+}
+
+/* 
+ transform: rotate(-20deg);
+  transform: rotateZ(20deg);
+
+  are the same
 */
