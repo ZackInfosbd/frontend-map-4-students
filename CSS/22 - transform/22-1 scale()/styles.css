@@ -1,0 +1,32 @@
+/* 
+
+Transform: 
+- The `scale()` function is used in CSS to specify a transformation that changes the size of an element. It allows you to scale an element up or down in size without affecting the layout of other elements on the page.
+
+it takes values as follows:
+- scale(x): scales the element along the horizontal axis by a factor of x.
+- scale(x, y): scales the element along the horizontal and vertical axes by factors of x and y, respectively.
+
+
+*/
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+}
+
+.one {
+  background-color: red;
+  transform: scale(1.5, 4);
+  transform: scaleX(1.5);
+}
+.two {
+  background-color: green;
+  transform: scaleY(4);
+  transform: scalex(2);
+}
+
+.three {
+  background-color: blue;
+  transform: scale(0.5);
+}

@@ -1,0 +1,30 @@
+/* 
+
+Transform:  translte()
+- The `translate()` function is used in CSS to specify a transformation that moves an element along the X and/or Y axis. It allows you to change the position of an element without affecting the layout of other elements on the page.
+
+*/
+
+div {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  background-color: #f00;
+}
+
+.one {
+  background-color: red;
+  transform: translate(50px, 100px);
+  transform: translateX(50px);
+  transform: translateX(-50px);
+  transform: translateX(50%);
+}
+.two {
+  background-color: green;
+  transform: translateY(50px);
+}
+.three {
+  background-color: blue;
+  /* transform: translatex(75px); */
+  transform: translte(200px, 100px);
+}
